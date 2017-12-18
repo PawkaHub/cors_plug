@@ -21,7 +21,7 @@ defmodule CorsPlug.Mixfile do
 
   defp deps do
     [
-      {:plug, "~> 1.4 or ~> 1.5", override: true},
+      {:plug, "~> 1.4 or ~> 1.5.0-rc.0", override: true},
 
       {:ex_doc, "~> 0.11", only: :dev},
       {:earmark, "~> 1.2", only: :dev},
